@@ -1,6 +1,6 @@
 {
-  "host": "frontdev.birdinflight.com",
-  "port": "${process.env.PORT || 1337}",
+  "host": "frontdev.birdinflight.com/admin",
+  "port": "80",
   "production": true,
   "proxy": {
     "enabled": false
