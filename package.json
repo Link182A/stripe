@@ -5,11 +5,13 @@
 	"description": "A Strapi application",
 	"scripts": {
 		"develop": "strapi develop",
+		"develop-server": "NODE_ENV=production strapi develop",
 		"build": "NODE_ENV=production strapi build",
 		"start": "NODE_ENV=production node server.js",
 		"strapi": "strapi",
 		"pm2": "pm2 start server.js",
-		"pm2stop": "pm2 stop server.js"
+		"pm2stop": "pm2 stop server.js",
+		"pm2m": "pm2 monitor"
 	},
 	"devDependencies": {},
 	"dependencies": {
