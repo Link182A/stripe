@@ -1,5 +1,5 @@
 {
-  "host": "frontdev.birdinflight.com/admin",
+  "host": "frontdev.birdinflight.com",
   "port": "80",
   "production": true,
   "proxy": {
