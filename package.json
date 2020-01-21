@@ -9,7 +9,7 @@
 		"start": "NODE_ENV=production node server.js",
 		"strapi": "strapi",
 		"pm2": "pm2 start server.js",
-		"pm2stop": "pm2 start server.js"
+		"pm2stop": "pm2 stop server.js"
 	},
 	"devDependencies": {},
 	"dependencies": {
