@@ -4,7 +4,7 @@
 		"default": {
 			"connector": "mongoose",
 			"settings": {
-				"uri": "mongodb+srv://admin:ketrin1101@cluster0-kn1yi.mongodb.net/testStrapi?retryWrites=true&w=majority"
+				"uri": "mongodb+srv://server:server3password@cluster0-kn1yi.mongodb.net/test?retryWrites=true&w=majority"
 			},
 			"options": {
 				"ssl": true
